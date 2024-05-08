@@ -1,4 +1,66 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Public+Sans:wght@300;400;700&display=swap');
+
+:root {
+  --soft-cyan: hsl(174, 77%, 80%);
+  --strong-cyan: hsl(174, 86%, 45%);
+  --light-grayish-red: hsl(14, 92%, 95%);
+  --light-red: hsl(15, 100%, 70%);
+  --pale-blue: hsl(226, 100%, 87%);
+  --white: hsl(0, 0%, 100%);
+  --very-pale-blue: hsl(230, 100%, 99%);
+  --light-grayish-blue-slider: hsl(224, 65%, 95%);
+  --light-grayish-blue-toggle: hsl(223, 50%, 87%);
+  --grayish-blue: hsl(225, 20%, 60%);
+  --dark-desaturated-blue: hsl(227, 35%, 25%);
+}
+
+html, body {
   height: 100%;
   width: 100%;
+
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+}
+
+.outer-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--very-pale-blue);
+  gap: 20px;
+}
+
+header {
+}
+
+main {
+  background-color: var(--white);
+  box-shadow: 0px 0px 10px var(--light-grayish-blue-slider);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.perk {
+  display: flex;
+}
+
+button {
+  background-color: var(--dark-desaturated-blue);
+  color: var(--white);
+  padding: 10px 30px;
+  border-radius: 20px;
 }
