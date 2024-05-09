@@ -19,6 +19,7 @@ html, body {
   width: 100%;
 
   font-family: "Manrope", sans-serif;
+  font-weight: 600;
 }
 
 * {
@@ -26,8 +27,8 @@ html, body {
 }
 
 h2 {
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 800;
 }
 
 p {
@@ -42,9 +43,23 @@ p {
   justify-content: center;
   background-color: var(--very-pale-blue);
   gap: 20px;
+
+  padding: 20px;
 }
 
 header {
+  text-align: center;
+  line-height: 25px;
+  padding: 35px 0;
+
+  background-image: url("images/pattern-circles.svg");
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header p {
+  color: var(--grayish-blue);
 }
 
 main {
